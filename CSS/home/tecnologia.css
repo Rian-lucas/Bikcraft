@@ -9,7 +9,7 @@
     gap: 40px;
 }
 
-.tecnologia-img img {
+.tecnologia-imagem img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -17,12 +17,14 @@
 }
 
 .tecnologia-conteudo {
-    padding-top: 160px;
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
 .tecnologia-conteudo>span {
-    margin-bottom: 20px;
+    text-transform: uppercase;
     display: block;
+    margin-bottom: 20px;
 }
 
 .tecnologia-conteudo h2 {
@@ -63,10 +65,10 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .tecnologia-img {
+    .tecnologia-imagem {
         display: none;
     }
-    .tecnologia a {
+    .tecnologia-conteudo a {
         margin-bottom: 60px;
     }
 }
